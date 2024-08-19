@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @Filename:    test.py
-# @Project:     GuideNet
-# @Author:      jie
-# @Time:        2021/3/16 4:47 PM
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = '1'
