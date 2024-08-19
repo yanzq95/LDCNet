@@ -1,0 +1,54 @@
+batch_size: 3
+data_config:
+  kitti:
+    path: /opt/data/private/yanzq/carla_epe_resize
+gpu_ids:
+- 0
+loss: MSE_and_SCI
+lr_config:
+  MultiStepLR:
+    gamma: 0.5
+    last_epoch: -1
+    milestones:
+    - 5
+    - 10
+    - 15
+manual_seed: 1600
+metric: RMSE
+model: GNS
+name: GNS
+nepoch: 26
+num_workers: 4
+optim_config:
+  AdamW:
+    lr: 0.001
+    weight_decay: 0.05
+resume_seed: 1600
+start_epoch: 1
+test_aug_configs:
+- Norm:
+    mean:
+    - 90.995
+    - 96.2278
+    - 94.3213
+    std:
+    - 79.2382
+    - 80.5267
+    - 82.1483
+test_epoch: 1
+test_iters: 100
+train_aug_configs:
+- Jitter
+- Flip
+- Norm:
+    mean:
+    - 90.995
+    - 96.2278
+    - 94.3213
+    std:
+    - 79.2382
+    - 80.5267
+    - 82.1483
+tta: true
+vis: true
+vis_iters: 50
