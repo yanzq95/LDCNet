@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @Filename:    model.py
-# @Project:     GuideNet
-# @Author:      jie
-# @Time:        2021/3/14 7:50 PM
 
 import torch
 import torch.nn as nn
