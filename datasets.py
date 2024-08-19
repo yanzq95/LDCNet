@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @Filename:    datasets.py
-# @Project:     GuideNet
-# @Author:      jie
-# @Time:        2021/3/14 8:08 PM
 
 import os
 import numpy as np
