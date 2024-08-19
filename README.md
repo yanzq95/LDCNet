@@ -17,3 +17,6 @@ You can directly download the trained model and put it in *checkpoints*:
 [CARLA-Night-DC ckpt](https://pan.baidu.com/s/1JJq-aAgQZrT8BJogL3rKxw)
 
 password: ckpt
+
+## Acknowledgement
+We appreciate the publicly available codes of [GuideNet](https://github.com/kakaxi314/GuideNet) and [SCI](https://github.com/vis-opt-group/SCI).
