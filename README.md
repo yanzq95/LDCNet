@@ -1,5 +1,5 @@
 # LDCNet
-[Learnable differencing center for nighttime depth perception](https://link.springer.com/content/pdf/10.1007/s44267-024-00048-9.pdf), a potential solution for nighttime depth completion. 
+[Learnable Differencing Center for Nighttime Depth Perception](https://link.springer.com/content/pdf/10.1007/s44267-024-00048-9.pdf), a potential solution for nighttime depth completion. 
 
 ## Dependency
 PyTorch 1.4
@@ -21,6 +21,7 @@ password: ckpt
 ## Citation
 If you find our LDCNet helpful, please consider citing it via
 
+```
 @article{yan2024learnable,
   title={Learnable differencing center for nighttime depth perception},
   author={Yan, Zhiqiang and Zheng, Yupeng and Fan, Deng-Ping and Li, Xiang and Li, Jun and Yang, Jian},
@@ -31,6 +32,7 @@ If you find our LDCNet helpful, please consider citing it via
   year={2024},
   publisher={Springer}
 }
+```
 
 ## Acknowledgement
 We appreciate the publicly available codes of [GuideNet](https://github.com/kakaxi314/GuideNet) and [SCI](https://github.com/vis-opt-group/SCI).
